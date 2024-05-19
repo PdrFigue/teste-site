@@ -28,7 +28,7 @@ body{
     padding: 10px;
     grid-template-columns: 61% 1fr;
     display: grid;
-    z-index: 1;
+    /* z-index: 1; */
     grid-area: 1/2;
 }
 
@@ -47,6 +47,8 @@ body{
     gap: 40px;
     align-items: end;
     list-style-type: none;
+    padding-right: 30px;
+    
 }
 
 a {
